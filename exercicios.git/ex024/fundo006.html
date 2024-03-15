@@ -3,20 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main grande</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+           /* background-color: black;
             background-image:  url('imagens/wallpaper002.jpg');
             background-position: center center ;
             background-repeat: no-repeat;
-            background-size: cover ;
-        }
+            background-size: cover ; 
+            background-attachment: fixed; */
 
+            /* shorthand - background 
+            color > image > position > repeat > [size] > attachment
+            */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed ;
+            background-size: cover;
+        }
+         
         main {
             background-color: aliceblue;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -34,7 +41,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, accusantium molestiae. Maxime odit, in optio quos iste, porro perferendis ab velit, voluptatibus magnam illum saepe est! Possimus neque necessitatibus in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nostrum temporibus fugit unde molestiae, mollitia, doloremque ab dolore optio vero provident veniam tempora ducimus fugiat excepturi. Natus sequi ipsam aut! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate quia veritatis, nostrum magni voluptatem molestiae officia alias ea maxime consequatur placeat, soluta repudiandae iste totam libero fugit quos sit eius.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, accusantium molestiae. Maxime odit, in optio quos iste, porro perferendis ab velit, voluptatibus magnam illum saepe est! Possimus neque necessitatibus in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nostrum temporibus fugit unde molestiae, mollitia, doloremque ab dolore optio vero provident veniam tempora ducimus fugiat excepturi. Natus sequi ipsam aut! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate quia veritatis, nostrum magni voluptatem molestiae officia alias ea maxime consequatur placeat, soluta repudiandae iste totam libero fugit quos sit eius.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, accusantium molestiae. Maxime odit, in optio quos iste, porro perferendis ab velit, voluptatibus magnam illum saepe est! Possimus neque necessitatibus in. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nostrum temporibus fugit unde molestiae, mollitia, doloremque ab dolore optio vero provident veniam tempora ducimus fugiat excepturi. Natus sequi ipsam aut! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate quia veritatis, nostrum magni voluptatem molestiae officia alias ea maxime consequatur placeat, soluta repudiandae iste totam libero fugit quos sit eius.</p>
-
+    
     </main>
 </body>
 </html> 
