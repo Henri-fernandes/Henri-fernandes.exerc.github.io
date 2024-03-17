@@ -64,12 +64,12 @@ section > p {
 }
 
 .normal {
-    background-color: white;
+  background-color:  rgb(247, 242, 242);
     color: black;
 }
 
 .imagem {
-    background-color: rgba(31, 30, 30, 0.877);
+    background-color: rgba(3, 3, 3, 0.877);
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.568);
     background-size: cover;
@@ -79,20 +79,21 @@ section > p {
 
 }
 .imagem  > p {
-    background-color: rgba(0, 0, 0, 0.671);
+    background-color: rgba(0, 0, 0, 0.541);
+    border-radius: 3px;
     display: inline-block;
     padding: 5px;
     text-shadow: 1px 2px black;
 }
 
 #img01 {
-    background-image: url('exercicios.git/ex025/imagens/background001.jpg');
+    background-image: url('imagens/background001.jpg');
     background-position: right center;
    
 }
 
 #img02 {
-    background-image: url(exercicios.git/ex025/imagens/background002.jpg);
+    background-image: url(imagens/background002.jpg);
     
 }
 
