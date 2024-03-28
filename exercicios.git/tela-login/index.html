@@ -4,18 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+
+    
     <link rel="stylesheet" href="style/mobile.css">
 </head>
 <body>
     <main>
         <section id="login">
             <div id="img">
-                FOTO
+
             </div>
             <div id="form">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                <form action="login.php" method="post">
+                <form  action="login.php" method="post"> 
+                    <label class="label"  for="imail">
+                   oi
+                    </label>
+
+                    <input class="input"  type="email" name="mail" id="imail" placeholder=" Seu email"><br>
+
+                    <label class="label"  
+                    for="isen">
+                  
+                   oi </label>
+
+                    <input class="input" type="password" name="sen" id="isen" placeholder=" Sua senha"><br>
+
+
+                    <input id="baixo" type="submit" value="Entrar"> <br>
+                    <input id="mbaixo" type="reset" value="Esqueci minha senha">
                     
                 </form>
             </div>

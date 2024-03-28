@@ -5,3 +5,90 @@
     verde: #49a09d
     Lilás: #5f2c82
 */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+   
+}
+
+body {
+    background-color: blueviolet;
+   
+}
+
+main {
+    background-color: white;
+    text-align: center;
+    text-justify: auto;
+    font-size: 0.8em;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    width: 50vw ;
+    height: 85vh;
+    box-shadow: 2px 2px 20px black;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#img {
+    background-image: url(../imagens/back-login.jpg);
+    border-radius: 20px 20px 0px 0px;
+    height: 220px;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.cxone {
+    background-color:#49a09d93;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.label{
+   background-color: red; 
+   
+    
+
+}
+
+.input {
+    background-color: #49a09d9d ;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+#baixo {
+    background-color: #49a09ddc ;
+    width:230px ;
+    height: 40px;
+    margin-bottom: 5px;
+    border-radius: 5px; 
+    border: none;
+    color: white;
+    
+}
+
+#mbaixo {
+   border: 2px solid #49a09ddc ;
+    width:230px ;
+    height: 40px;
+    border-radius: 5px; 
+    color:#49a09ddc ;
+}
+
+#baixo:hover, #mbaixo:hover {
+    background-color: red;
+    color: white;
+}
