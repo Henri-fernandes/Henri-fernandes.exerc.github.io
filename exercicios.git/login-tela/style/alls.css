@@ -3,11 +3,16 @@
 
 @media screen and (min-width:768px) and (max-width:992px) {
     body {
-        background-image: linear-gradient(to top, #49a09d, #5f2c82)
+        background-image: linear-gradient(to right, #57b6b3, #5f2c82)
+    }
+
+    main {
+        height: 530px;
     }
    
     #login {
-        width: 90vh;
+        width: 80vh;
+        height: 300px;
     }
 
     #img {
@@ -28,23 +33,24 @@
 
 @media screen and (min-width:992px)  {
     body {
-        background-image: linear-gradient(to top, #49a09d, #5f2c82)
+        background-image: linear-gradient(to left, #49a09d, #5f2c82)
     }
     
     #login {
         width: 950px;
+        height: 350px;
 
     }
 
     #img {
         float: right;
-        width: 50%;
+        width: 40%;
         height: 100%;
     }
     
     #form {
         float: left;
-        width: 50%
+        width: 60%
     }
 
     h1{
