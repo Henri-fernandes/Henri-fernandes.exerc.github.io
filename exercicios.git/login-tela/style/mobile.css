@@ -37,6 +37,8 @@ main {
     border-radius: 20px;
     box-shadow: 0px 0px 10px black;
 
+    transition: .3s; height: .3s; width: .3s;
+    transition-timing-function: ease;
 }
 
 #img {
@@ -48,6 +50,7 @@ main {
 }
 
 #form {
+    display: block;
     padding: 10px;
 
 }
